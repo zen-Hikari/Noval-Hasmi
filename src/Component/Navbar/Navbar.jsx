@@ -59,7 +59,7 @@ function Navbar() {
             <nav id="nav-menu" className={`${isMenuVisible ? '' : 'hidden'} lg:static lg:bg-transparent lg:max-w-full lg:block absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:shadow-none lg:rounded-none`}>
               <ul className='block lg:flex'>
                 <li className='group'>
-                  <a href="#Home" className='text-base font-semibold text-dark py-2 mx-8
+                  <a href="#Hero" className='text-base font-semibold text-dark py-2 mx-8
                   flex group-hover:text-ungu'>HOME</a>
                 </li>
                 <li className='group'>
