@@ -9,7 +9,7 @@ import Contact from './Component/ContactPage/Contact';
 import Footer from './Component/Footer/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BlogPages from './router/Blog/BlogPages';
+import BlogPages from './router/BlogPage/BlogPages';
 import NotFound from './router/NotFound/NotFound';
 
 function App() {
