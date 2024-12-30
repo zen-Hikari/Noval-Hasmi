@@ -1,5 +1,5 @@
 import Logo from '../BlogPages/assets/logo.png'
-import ImgApi from './assets/Api.png'
+import ImgApi from './assets/api.png'
 function Api() {
     return(
         <section className="flex flex-col items-center px-4 lg:px-20 py-10">
