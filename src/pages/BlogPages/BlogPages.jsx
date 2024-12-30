@@ -3,8 +3,8 @@ import Blog1 from '../../Component/BLogPage/assets/1.png'
 import Blog2 from '../../Component/BLogPage/assets/2.png'
 import Blog3 from '../../Component/BLogPage/assets/3.png'
 import Blog4 from '../BlogCompt/assets/framework.png'
-import Blog5 from '../BlogCompt/assets/Api.png'
-import Blog6 from '../BlogCompt/assets/linux.png'
+import Blog5 from '../BlogCompt/assets/api.png'
+import Blog6 from '../BlogCompt/assets/Linux.png'
 function BlogPages() {
 
     return(

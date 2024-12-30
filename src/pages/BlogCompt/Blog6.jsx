@@ -1,5 +1,5 @@
 import Logo from '../BlogPages/assets/logo.png'
-import Linux from './assets/linux.png'
+import Linux from './assets/Linux.png'
 function BlogLinux() {
     return(
         <section className="flex flex-col items-center px-4 lg:px-20 py-10">
