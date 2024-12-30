@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 User-agent: *
 Disallow:
 
 Sitemap: https://noval-hasmi.vercel.app/sitemap.xml
+=======
+User-agent: *
+Disallow:
+
+Sitemap: https://noval-hasmi.vercel.app/sitemap.xml
+>>>>>>> 3e58592e8e02a6295609bebe490845a771eff6b6
