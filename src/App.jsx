@@ -17,10 +17,12 @@ import BlogRCE from './pages/BlogCompt/Blog3';
 import Framework from './pages/BlogCompt/Blog4';
 import Api from './pages/BlogCompt/Blog5';
 import BlogLinux from './pages/BlogCompt/Blog6';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
-    <Router>
+    <>
+     <Router>
       <Routes>
         <Route
           path="/"
@@ -48,6 +50,8 @@ function App() {
         <Route path="/Blog/5-Distribusi-Linux-Terbaik-untuk-Pengguna-Baru-di-2024" element={<BlogLinux/>} />
       </Routes>
     </Router>
+    <Analytics/>
+    </>
   );
 }
 
