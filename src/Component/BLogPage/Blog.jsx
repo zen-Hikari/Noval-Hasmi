@@ -30,7 +30,7 @@ function Blog() {
                                     <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-ungu truncate'>Review Royal Kludge RK65: Keyboard Mechanical Minimalis yang Memukau</a>
                                 </h3>
                                 <p className='font-medium tex-base text-slate-500 mb-6'>Royal Kludge RK65 adalah pilihan sempurna untuk kalian yang mencari keyboard mechanical dengan desain ...</p>
-                                <a onClick={Navigate} href="/BLog" className='font-medium text-sm text-white bg-ungu py-2 px-4 rounded-md hover:opacity-80'>Read More</a>
+                                <a onClick={Navigate} href="/Blog" className='font-medium text-sm text-white bg-ungu py-2 px-4 rounded-md hover:opacity-80'>Read More</a>
                             </div>
                         </div>
                     </div>

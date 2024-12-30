@@ -9,8 +9,8 @@ import Contact from './Component/ContactPage/Contact';
 import Footer from './Component/Footer/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BlogPages from './router/Blog/BlogPages';
-import NotFound from './router/NotFound/NotFound';
+import NotFound from './pages/NotFound';
+import BlogPages from './pages/Blog/BlogPages';
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           }
         />
 
-        <Route path="/Blog" element={<BlogPages />} />
+        <Route path="/Blog" element={<BlogPages/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>
