@@ -17,7 +17,7 @@ import BlogRCE from './pages/BlogCompt/Blog3';
 import Framework from './pages/BlogCompt/Blog4';
 import Api from './pages/BlogCompt/Blog5';
 import BlogLinux from './pages/BlogCompt/Blog6';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics';
 
 
 
