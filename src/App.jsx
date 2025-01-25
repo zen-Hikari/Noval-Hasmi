@@ -17,11 +17,11 @@ import BlogRCE from './pages/BlogCompt/Blog3';
 import Framework from './pages/BlogCompt/Blog4';
 import Api from './pages/BlogCompt/Blog5';
 import BlogLinux from './pages/BlogCompt/Blog6';
-import { Analytics } from '@vercel/analytics/react';
+import LixVMac from './pages/BlogCompt/Blog7';
+
 
 function App() {
   return (
-    <>
      <Router>
       <Routes>
         <Route
@@ -48,10 +48,9 @@ function App() {
         <Route path="/Blog/Memilih-Framework-Front-End-untuk-Proyek-Web" element={<Framework/>} />
         <Route path="/Blog/Pengenalan-API-dan-Cara-Menggunakannya-dalam-Aplikasi-Web" element={<Api/>} />
         <Route path="/Blog/5-Distribusi-Linux-Terbaik-untuk-Pengguna-Baru-di-2024" element={<BlogLinux/>} />
+        <Route path="/Blog/Linux-vs-macOS:-Mana-yang-Lebih-Baik-untuk-Pengguna-Kreatif?" element={<LixVMac/>} />
       </Routes>
     </Router>
-    <Analytics/>
-    </>
   );
 }
 
