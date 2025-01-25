@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://noval-hasmi.vercel.app/</loc>
@@ -8,3 +9,15 @@
     <priority>0.8</priority>
   </url>
 </urlset>
+=======
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://noval-hasmi.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://noval-hasmi.vercel.app/blog</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+>>>>>>> 8ce8a8580c0bae75d44bbd7b58eac47f3ae4b2cc

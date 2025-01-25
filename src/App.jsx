@@ -20,6 +20,8 @@ import BlogLinux from './pages/BlogCompt/Blog6';
 import LixVMac from './pages/BlogCompt/Blog7';
 
 
+
+
 function App() {
   return (
      <Router>
