@@ -6,7 +6,7 @@ function LixVMac() {
   <div className="logo flex justify-between items-center w-full max-w-6xl">
     <div className="flex items-center gap-3">
       <img width="50px" src={Logo} alt="Logo" />
-      <h3 className="font-semibold text-2xl lg:text-3xl text-ungu">Noval Hasmi</h3>
+      <h3 className="font-semibold text-2xl lg:text-3xl text-ungu">Nova Hasmi</h3>
     </div>
     <a href="/Blog" className="text-slate-500 hover:text-ungu">
       <i className="ai-arrow-left text-2xl"></i>
