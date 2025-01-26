@@ -18,6 +18,7 @@ import Framework from './pages/BlogCompt/Blog4';
 import Api from './pages/BlogCompt/Blog5';
 import BlogLinux from './pages/BlogCompt/Blog6';
 import LixVMac from './pages/BlogCompt/Blog7';
+import Distro from './pages/BlogCompt/Blog8';
 
 
 
@@ -51,6 +52,7 @@ function App() {
         <Route path="/Blog/Pengenalan-API-dan-Cara-Menggunakannya-dalam-Aplikasi-Web" element={<Api/>} />
         <Route path="/Blog/5-Distribusi-Linux-Terbaik-untuk-Pengguna-Baru-di-2024" element={<BlogLinux/>} />
         <Route path="/Blog/Linux-vs-macOS:-Mana-yang-Lebih-Baik-untuk-Pengguna-Kreatif?" element={<LixVMac/>} />
+        <Route path="/Blog/Distro-Linux-Terbaik-untuk-Programmer" element={<Distro/>} />
       </Routes>
     </Router>
   );

@@ -6,6 +6,7 @@ import Blog4 from '../BlogCompt/assets/framework.png'
 import Blog5 from '../BlogCompt/assets/api.png'
 import Blog6 from '../BlogCompt/assets/Linux.png'
 import Blog7 from '../BlogCompt/assets/linux-vs-macOS.png'
+import Blog8 from '../BlogCompt/assets/distros_linux.png'
 function BlogPages() {
 
     return(
@@ -120,8 +121,20 @@ function BlogPages() {
                                 <h3>
                                     <a href="/Blog/Linux-vs-macOS:-Mana-yang-Lebih-Baik-untuk-Pengguna-Kreatif?" className='block mb-3 font-semibold text-xl text-dark hover:text-ungu truncate'>Linux vs macOS: Mana yang Lebih Baik untuk Pengguna Kreatif?</a>
                                 </h3>
-                                <p className='font-medium tex-base text-slate-500 mb-6'>Bagi banyak orang yang bekerja di bidang kreatif, seperti desain grafis, pengeditan video, atau musik, ...</p>
+                                <p className='font-medium tex-base text-slate-500 mb-6'>Bagi banyak orang yang bekerja di bidang kreatif, seperti desain grafis, pengeditan video, atau musik, pilihan sistem operasi sangat mempengaruhi produktivitas. ...</p>
                                 <a  href="/Blog/Linux-vs-macOS:-Mana-yang-Lebih-Baik-untuk-Pengguna-Kreatif?" className='font-medium text-sm text-white bg-ungu py-2 px-4 rounded-md hover:opacity-80'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                            <img src={Blog8} alt="blog8" className='w-full'/>
+                            <div className="py-8 px-6">
+                                <h3>
+                                    <a href="/Blog/Distro-Linux-Terbaik-untuk-Programmer" className='block mb-3 font-semibold text-xl text-dark hover:text-ungu truncate'>Distro Linux Terbaik untuk Programmer</a>
+                                </h3>
+                                <p className='font-medium tex-base text-slate-500 mb-6'>Linux telah menjadi pilihan utama bagi banyak programmer karena fleksibilitas, kestabilan, dan komunitas yang aktif...</p>
+                                <a  href="/Blog/Distro-Linux-Terbaik-untuk-Programmer" className='font-medium text-sm text-white bg-ungu py-2 px-4 rounded-md hover:opacity-80'>Read More</a>
                             </div>
                         </div>
                     </div>
