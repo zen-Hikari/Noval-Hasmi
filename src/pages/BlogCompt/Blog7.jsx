@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import Blog7 from './assets/linux-vs-macOS.png'
 function LixVMac() {
@@ -124,6 +125,17 @@ function LixVMac() {
         solid. Namun, jika Anda lebih suka sistem operasi yang dapat disesuaikan, open source, dan
         bebas biaya, Linux menawarkan banyak keuntungan.
       </span>
+      <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
     </p>
   </div>
 </section>

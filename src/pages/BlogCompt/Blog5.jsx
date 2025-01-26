@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import ImgApi from './assets/api.png'
 function Api() {
@@ -86,6 +87,17 @@ function Api() {
               web yang lebih dinamis dan terhubung dengan berbagai layanan eksternal untuk memperluas
               fungsionalitas aplikasi Anda.
             </span>
+            <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
           </p>
         </div>
       </section>

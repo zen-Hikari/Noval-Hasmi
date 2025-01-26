@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import Blog3 from '../../Component/BLogPage/assets/3.png'
 function BlogRCE () {
@@ -53,6 +54,17 @@ function BlogRCE () {
         utama dalam uji penetrasi, sehingga mengatasi kerentanannya harus menjadi prioritas
         dalam pengembangan perangkat lunak yang aman dan tahan terhadap ancaman.
       </span>
+      <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
     </p>
   </div>
 </section>

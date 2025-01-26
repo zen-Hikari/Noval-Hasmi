@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import Blog2 from '../../Component/BLogPage/assets/2.png'
 function BlogUnreal() {
@@ -56,6 +57,17 @@ function BlogUnreal() {
               Jadi, apakah Anda siap untuk menciptakan karya masterpiece Anda berikutnya
               dengan Unreal Engine?
             </span>
+            <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
           </p>
         </div>
       </section>

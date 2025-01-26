@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import Blog4 from './assets/framework.png'
 
@@ -75,6 +76,17 @@ function Framework() {
         dan pengalaman tim pengembang. Dengan memahami kelebihan masing-masing framework,
         Anda dapat membuat keputusan yang lebih baik dalam memulai proyek web Anda.
       </span>
+      <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
     </p>
   </div>
 </section>

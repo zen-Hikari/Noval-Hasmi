@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import Blog1 from '../../Component/BLogPage/assets/1.png'
 function BlogKeyboard() {
@@ -53,6 +54,17 @@ function BlogKeyboard() {
         kalian, tapi bagi saya, RK65 menawarkan kombinasi fitur, desain, dan
         performa yang sulit untuk diabaikan.
       </span>
+      <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
     </p>
   </div>
 </section>

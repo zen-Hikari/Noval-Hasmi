@@ -1,3 +1,4 @@
+import Safe from 'react-safe'
 import Logo from '../BlogPages/assets/logo.png'
 import Linux from './assets/Linux.png'
 function BlogLinux() {
@@ -84,6 +85,17 @@ function BlogLinux() {
         merasa kewalahan. Pilihlah distribusi yang paling sesuai dengan kebutuhan
         Anda dan mulailah menjelajah dunia Linux!
       </span>
+      <div className='pt-5' id="disqus_thread"></div>
+      <Safe.script>
+        {
+           (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-noval-hasmi-vercel-app.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })()
+        }
+      </Safe.script>
     </p>
   </div>
 </section>
