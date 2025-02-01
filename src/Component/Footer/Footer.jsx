@@ -71,7 +71,7 @@ function Footer() {
                         </a>
                         {/* linkedin end */}
                 </div>
-                <p className="font-semibold text-slate-300 text-xs text-center">© 2024 <a href="https://github.com/zen-Hikari" target="_blank" className=" font-bold underline text-ungu">Noval Hasmi</a> | Crafted with passion and dedication for your inspiration.</p>
+                <p className="font-semibold text-slate-300 text-xs text-center">© 2024-2025 <a href="https://github.com/zen-Hikari" target="_blank" className=" font-bold underline text-ungu">Noval Hasmi</a> | Crafted with passion and dedication for your inspiration.</p>
                 </div>
             </div>
         </footer>
