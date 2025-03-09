@@ -33,7 +33,7 @@ function App() {
     // Simulasikan waktu loading selama 3 detik sebelum masuk ke halaman utama
     setTimeout(() => {
       setLoading(false);
-    }, 14090);
+    }, 16000);
   }, []);
 
   if (loading) {
