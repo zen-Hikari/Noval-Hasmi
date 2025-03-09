@@ -3,16 +3,16 @@ import "./LoadingPage.css";
 
 function LoadingPage() {
   const textLines = [
-    "[ 0.001] Initializing system...",
-    "[ 0.004] Loading kernel modules...",
-    "[ 0.012] Detecting hardware...",
-    "[ 0.024] Mounting root filesystem...",
-    "[ 0.037] Starting system services...",
-    "[ 0.045] Configuring network interfaces...",
-    "[ 0.058] Checking security modules...",
-    "[ 0.069] Starting user session...",
-    "[ 0.075] Loading graphical interface...",
-    "[ 0.089] System ready. Welcome user!"
+    "[0.001] Initializing system...",
+    "[0.004] Loading kernel modules...",
+    "[0.012] Detecting hardware...",
+    "[0.024] Mounting root filesystem...",
+    "[0.037] Starting system services...",
+    "[0.045] Configuring network interfaces...",
+    "[0.058] Checking security modules...",
+    "[0.069] Starting user session...",
+    "[0.075] Loading graphical interface...",
+    "[0.089] System ready. Welcome user!"
   ];
 
   const [displayText, setDisplayText] = useState("");
