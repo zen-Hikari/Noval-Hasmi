@@ -24,22 +24,21 @@ import LoadingPage from "./pages/LoadingPage";
 
 function App() {
   const [loading, setLoading] = useState(() => {
-    return localStorage.getItem("firstLoad") === "true" ? false : true;
+    return sessionStorage.getItem("firstLoad") === "true" ? false : true;
   });
 
   useEffect(() => {
     if (loading) {
       setTimeout(() => {
         setLoading(false);
-        localStorage.setItem("firstLoad", "true");
-      }, 16000); // 4 detik cukup, bisa diubah
+        sessionStorage.setItem("firstLoad", "true");
+      }, 16000); // Waktu loading, bisa diubah
     }
   }, [loading]);
 
   if (loading) {
     return <LoadingPage />;
   }
-
   return (
     <Router>
       <Routes>
