@@ -1,0 +1,85 @@
+:root {
+    --bg: #1c1c1c;
+}
+
+/* Fullscreen terminal */
+.terminal-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d0d0d;
+  color: #00ff00;
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 20px rgba(0, 255, 0, 0.3);
+}
+
+/* Header Terminal */
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+  border-bottom: 2px solid #00ff00;
+}
+
+/* Tombol-tombol di header (mirip macOS) */
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.close {
+  background-color: #ff5f56;
+}
+
+.minimize {
+  background-color: #ffbd2e;
+}
+
+.maximize {
+  background-color: #27c93f;
+}
+
+/* Body Terminal */
+.terminal-body {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+  white-space: pre-line;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Efek Blink pada cursor */
+.blink {
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Scrollbar modern */
+.terminal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+  background: #00ff00;
+  border-radius: 10px;
+}

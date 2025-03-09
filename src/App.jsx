@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './Component/Navbar/Navbar';
 import HeroPage from './Component/HeroPage/Hero';
@@ -19,11 +20,26 @@ import Api from './pages/BlogCompt/Blog5';
 import BlogLinux from './pages/BlogCompt/Blog6';
 import LixVMac from './pages/BlogCompt/Blog7';
 import Distro from './pages/BlogCompt/Blog8';
+import LoadingPage from './pages/LoadingPage';
 
 
 
 
 function App() {
+
+    const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulasikan waktu loading selama 3 detik sebelum masuk ke halaman utama
+    setTimeout(() => {
+      setLoading(false);
+    }, 14090);
+  }, []);
+
+  if (loading) {
+    return <LoadingPage/>;  // Tampilkan halaman loading terlebih dahulu
+  }
+
   return (
      <Router>
       <Routes>
