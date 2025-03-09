@@ -30,14 +30,13 @@ function App() {
     const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulasikan waktu loading selama 3 detik sebelum masuk ke halaman utama
     setTimeout(() => {
       setLoading(false);
     }, 16000);
   }, []);
 
   if (loading) {
-    return <LoadingPage/>;  // Tampilkan halaman loading terlebih dahulu
+    return <LoadingPage/>; 
   }
 
   return (
